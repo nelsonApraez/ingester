@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration", "src\Integration\Integration.csproj", "{70F6C0A0-1BE5-4A31-BF5E-B05EB2CE6370}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D74651C6-9D43-4F6C-90B2-41A0C9E93F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "src\Entities\Entities.csproj", "{F079D673-8667-4074-A7CD-189EBD2CE516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionIngester", "src\FunctionIngester\FunctionIngester.csproj", "{7AD64AA1-BF9C-4CD8-83DF-7D78844078C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Integration.Tests", "tests\Shared.Integration.Tests\Shared.Integration.Tests.csproj", "{06AB38DC-B55B-43CD-B2DF-1AB3D6E4B885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionIngester.Tests", "tests\FunctionIngester.Tests\FunctionIngester.Tests.csproj", "{AAF1C616-34D7-406F-819F-750496B31693}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70F6C0A0-1BE5-4A31-BF5E-B05EB2CE6370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F6C0A0-1BE5-4A31-BF5E-B05EB2CE6370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F6C0A0-1BE5-4A31-BF5E-B05EB2CE6370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F6C0A0-1BE5-4A31-BF5E-B05EB2CE6370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F079D673-8667-4074-A7CD-189EBD2CE516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F079D673-8667-4074-A7CD-189EBD2CE516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F079D673-8667-4074-A7CD-189EBD2CE516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F079D673-8667-4074-A7CD-189EBD2CE516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD64AA1-BF9C-4CD8-83DF-7D78844078C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD64AA1-BF9C-4CD8-83DF-7D78844078C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD64AA1-BF9C-4CD8-83DF-7D78844078C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD64AA1-BF9C-4CD8-83DF-7D78844078C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06AB38DC-B55B-43CD-B2DF-1AB3D6E4B885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06AB38DC-B55B-43CD-B2DF-1AB3D6E4B885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06AB38DC-B55B-43CD-B2DF-1AB3D6E4B885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06AB38DC-B55B-43CD-B2DF-1AB3D6E4B885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF1C616-34D7-406F-819F-750496B31693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF1C616-34D7-406F-819F-750496B31693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF1C616-34D7-406F-819F-750496B31693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF1C616-34D7-406F-819F-750496B31693}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70F6C0A0-1BE5-4A31-BF5E-B05EB2CE6370} = {D74651C6-9D43-4F6C-90B2-41A0C9E93F48}
+		{F079D673-8667-4074-A7CD-189EBD2CE516} = {D74651C6-9D43-4F6C-90B2-41A0C9E93F48}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72B786BF-85CB-44DF-B495-45394D0E98F1}
+	EndGlobalSection
+EndGlobal

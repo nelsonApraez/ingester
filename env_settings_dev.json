@@ -1,0 +1,117 @@
+[
+    {
+        "name": "AZURE_AI_ENDPOINT",
+        "slotSetting": false,
+        "value": "https://dev-cms-genai-ai-services.cognitiveservices.azure.com/"
+    },
+    {
+        "name": "AZURE_AI_KEY1_SECRET_NAME",
+        "slotSetting": false,
+        "value": "dev-kvs-cms-genai-aiservices-primary-key"
+    },
+    {
+        "name": "AZURE_AI_SEARCH_ENDPOINT",
+        "slotSetting": false,
+        "value": "https://dev-srch-cms-genai.search.windows.net"
+    },
+    {
+        "name": "AZURE_AI_SEARCH_INDEX_NAME",
+        "slotSetting": false,
+        "value": "vector-index"
+    },
+    {
+        "name": "AZURE_AI_SEARCH_SECRET_NAME",
+        "slotSetting": false,
+        "value": "dev-kvs-cms-genai-aisearch-primary-key"
+    },
+    {
+        "name": "AZURE_STORAGE_CONTAINER",
+        "slotSetting": false,
+        "value": "container-docs"
+    },
+    {
+        "name": "AZURE_STORAGE_FOLDERS_CHUNKED_DOCS",
+        "slotSetting": false,
+        "value": "chunked-docs"
+    },
+    {
+        "name": "AZURE_STORAGE_FOLDERS_FAILED_PROCESSING_DOCS",
+        "slotSetting": false,
+        "value": "failed-processing-docs"
+    },
+    {
+        "name": "AZURE_STORAGE_FOLDERS_PROCESSED_DOCS",
+        "slotSetting": false,
+        "value": "processed-docs"
+    },
+    {
+        "name": "AZURE_STORAGE_FOLDERS_UNPROCESSED_DOCS",
+        "slotSetting": false,
+        "value": "unprocessed-docs"
+    },
+    {
+        "name": "AZURE_STORAGE_SECRET_NAME",
+        "slotSetting": false,
+        "value": "dev-kvs-cms-genai-st-connection-string"
+    },
+    {
+        "name": "CHUNK_TARGET_SIZE",
+        "slotSetting": false,
+        "value": "750"
+    },
+    {
+        "name": "KEYVAULT_URI",
+        "slotSetting": false,
+        "value": "https://dev-kv-cms-genai.vault.azure.net/"
+    },
+    {
+        "name": "OPENAI_EMBEDDING_MODEL",
+        "slotSetting": false,
+        "value": "dev-cog-cms-genai-embedding"
+    },
+    {
+        "name": "OPENAI_ENDPOINT",
+        "slotSetting": false,
+        "value": "https://dev-cog-cms-genai-openai.openai.azure.com/"
+    },
+    {
+        "name": "OPENAI_FREQUENCY_PENALTY",
+        "slotSetting": false,
+        "value": "0"
+    },
+    {
+        "name": "OPENAI_KEY1_SECRET_NAME",
+        "slotSetting": false,
+        "value": "dev-kvs-cms-genai-openai-primary-key"
+    },
+    {
+        "name": "OPENAI_MAX_TOKENS",
+        "slotSetting": false,
+        "value": "100"
+    },
+    {
+        "name": "OPENAI_MODEL",
+        "slotSetting": false,
+        "value": "gpt-4o"
+    },
+    {
+        "name": "OPENAI_PRESENCE_PENALTY",
+        "slotSetting": false,
+        "value": "0"
+    },
+    {
+        "name": "OPENAI_TEMPERATURE",
+        "slotSetting": false,
+        "value": "0.3"
+    },
+    {
+        "name": "OPENAI_TOPP",
+        "slotSetting": false,
+        "value": "0.5"
+    },
+    {
+        "name": "QUEUE_NAME",
+        "slotSetting": false,
+        "value": "documents-to-process"
+    }
+]
